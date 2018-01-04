@@ -1,2 +1,4 @@
 # test-repo
-Just a test repository. Nothing to see here.
+
+## What is this?
+Made this repository so I can mess with Github's API (https://developer.github.com/v3/). Nothing to see here.
