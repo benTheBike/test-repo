@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gsce-test</title>
+</head>
+<body>
+  <div id="cx-var" style="display:none;">008338061692318859483:2xrcolfz_oq</div>
+
+  <script defer>
+      (function() {
+          var cx = document.getElementById("cx-var").innerHTML;
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+ </body>
+ </html>
